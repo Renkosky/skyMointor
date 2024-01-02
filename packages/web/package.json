@@ -1,0 +1,32 @@
+{
+  "name": "@skyMointor/web",
+  "version": "3.0.1",
+  "description": "A SDK For Monitoring Web(React、Vue) Errors",
+  "author": "cjinhuo(https://github.com/cjinhuo)",
+  "license": "MIT",
+  "main": "dist/web.js",
+  "module": "dist/web.esm.js",
+  "types": "dist/web.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/skyMointor/skyMointor/blob/master/packages/web/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyMointor/skyMointor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyMointor/skyMointor/issues"
+  },
+  "keywords": [
+    "skyMointor",
+    "sdk",
+    "web",
+    "monitor"
+  ],
+  "dependencies": {
+    "@skyMointor/browser": "3.0.1",
+    "@skyMointor/react": "3.0.1",
+    "@skyMointor/vue": "3.0.1"
+  }
+}

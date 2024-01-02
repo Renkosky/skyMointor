@@ -1,0 +1,30 @@
+{
+  "name": "@skyMointor/utils",
+  "version": "3.0.1",
+  "description": "@skyMointor/utils",
+  "author": "cjinhuo",
+  "license": "MIT",
+  "main": "dist/utils.js",
+  "module": "dist/utils.esm.js",
+  "types": "dist/utils.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/skyMointor/skyMointor/blob/master/packages/utils/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyMointor/skyMointor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyMointor/skyMointor/issues"
+  },
+  "keywords": [
+    "skyMointor",
+    "sdk",
+    "monitor"
+  ],
+  "dependencies": {
+    "@skyMointor/shared": "3.0.1",
+    "@skyMointor/types": "3.0.1"
+  }
+}

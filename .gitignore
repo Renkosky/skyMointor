@@ -1,0 +1,24 @@
+.DS_Store
+node_modules
+yarn-error.log
+
+# test
+coverage
+.idea
+
+# api-extractor
+temp
+dist
+
+# analyzer
+analyzer.html
+
+packages/*/dist
+packages/*/node_modules
+
+packages/vue
+packages/wx-mini
+packages/wx-mini-performance
+.github
+docs
+test

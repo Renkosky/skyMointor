@@ -1,0 +1,35 @@
+{
+  "name": "@skyMointor/react",
+  "version": "3.0.1",
+  "description": "A SDK For Report React ErrorBoundary",
+  "author": "cjinhuo",
+  "license": "MIT",
+  "main": "dist/react.js",
+  "module": "dist/react.esm.js",
+  "types": "dist/react.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/skyMointor/skyMointor/blob/master/packages/react/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyMointor/skyMointor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyMointor/skyMointor/issues"
+  },
+  "keywords": [
+    "skyMointor",
+    "sdk",
+    "react",
+    "monitor"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "@skyMointor/core": "3.0.1",
+    "@skyMointor/utils": "3.0.1",
+    "@skyMointor/shared": "3.0.1"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@skyMointor/browser",
+  "version": "3.0.1",
+  "description": "A SDK For Monitoring Browser Errors",
+  "author": "cjinhuo",
+  "license": "MIT",
+  "main": "dist/browser.js",
+  "module": "dist/browser.esm.js",
+  "types": "dist/browser.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/skyMointor/skyMointor/blob/master/packages/browser/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyMointor/skyMointor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyMointor/skyMointor/issues"
+  },
+  "keywords": [
+    "skyMointor",
+    "sdk",
+    "browser",
+    "monitor"
+  ],
+  "dependencies": {
+    "@skyMointor/utils": "3.0.1",
+    "@skyMointor/core": "3.0.1",
+    "@skyMointor/shared": "3.0.1",
+    "@skyMointor/types": "3.0.1"
+  },
+  "buildOptions": {
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  }
+}
