@@ -43,9 +43,9 @@ export const enum BREADCRUMBCATEGORYS {
  */
 export type EventTypes = BrowserEventTypes | WxEventTypes | BaseEventTypes
 
-export const MitoLog = 'Mito.log'
-export const MitoLogEmptyMsg = 'empty.msg'
-export const MitoLogEmptyTag = 'empty.tag'
+export const SkyMointorLog = 'SkyMointor.log'
+export const SkyMointorLogEmptyMsg = 'empty.msg'
+export const SkyMointorLogEmptyTag = 'empty.tag'
 
 export const enum BaseEventTypes {
   VUE = 'vue'

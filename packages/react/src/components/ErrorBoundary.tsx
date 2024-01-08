@@ -3,12 +3,12 @@ import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@skyMointo
 import { ReportDataType } from '@skyMointor/types'
 import { extractErrorStack, Severity } from '@skyMointor/utils'
 import { PureComponent, ReactNode, ErrorInfo, ComponentType, FC } from 'react'
-import { MitoContext } from './provider'
+import { SkyMointorContext } from './provider'
 
 interface ErrorBoundaryProps {
   fallback?: ReactNode
   onError?: (error: Error, componentStack: string) => void
-  MitoInstance?: BaseClient
+  SkyMointorInstance?: BaseClient
 }
 
 interface ErrorBoundaryState {
@@ -25,18 +25,18 @@ class ErrorBoundaryWrapped extends PureComponent<ErrorBoundaryProps, ErrorBounda
   }
   componentDidCatch(error: Error, { componentStack }: ErrorInfo) {
     // error and componentStack are what we need
-    const { onError, MitoInstance } = this.props
+    const { onError, SkyMointorInstance } = this.props
     const reactError = extractErrorStack(error, Severity.Normal) as ReportDataType
     reactError.type = ErrorTypes.REACT
     onError?.(error, componentStack)
-    // mito handler -> collected react render error
-    const breadcrumbStack = MitoInstance?.breadcrumb.push({
+    // skyMointor handler -> collected react render error
+    const breadcrumbStack = SkyMointorInstance?.breadcrumb.push({
       type: BaseBreadcrumbTypes.REACT,
       data: reactError,
       category: BREADCRUMBCATEGORYS.EXCEPTION,
       level: Severity.Error
     })
-    MitoInstance?.transport.send(reactError, breadcrumbStack)
+    SkyMointorInstance?.transport.send(reactError, breadcrumbStack)
     this.setState({
       hasError: true
     })
@@ -47,13 +47,13 @@ class ErrorBoundaryWrapped extends PureComponent<ErrorBoundaryProps, ErrorBounda
 }
 
 export const ErrorBoundary: FC<ErrorBoundaryProps & { children: ReactNode }> = (props: ErrorBoundaryProps & { children: ReactNode }) => (
-  <MitoContext.Consumer>
-    {({ MitoInstance }) => (
-      <ErrorBoundaryWrapped {...props} MitoInstance={props.MitoInstance || MitoInstance}>
+  <SkyMointorContext.Consumer>
+    {({ SkyMointorInstance }) => (
+      <ErrorBoundaryWrapped {...props} SkyMointorInstance={props.SkyMointorInstance || SkyMointorInstance}>
         {props.children}
       </ErrorBoundaryWrapped>
     )}
-  </MitoContext.Consumer>
+  </SkyMointorContext.Consumer>
 )
 
 export const WithErrorBoundary = (errorBoundaryProps: ErrorBoundaryProps = {}) =>
@@ -65,6 +65,6 @@ export const WithErrorBoundary = (errorBoundaryProps: ErrorBoundaryProps = {}) =
         <ToWrapComponent {...props} />
       </ErrorBoundary>
     )
-    wrapped.displayName = `MitoErrorBoundary(${componentDisplayName})`
+    wrapped.displayName = `SkyMointorErrorBoundary(${componentDisplayName})`
     return wrapped as C
   }

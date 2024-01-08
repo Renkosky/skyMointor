@@ -1,3 +1,3 @@
 export * from '@skyMointor/browser'
 export * from '@skyMointor/vue'
-export { ErrorBoundary, WithErrorBoundary, MitoProvider, MitoContext } from '@skyMointor/react'
+export { ErrorBoundary, WithErrorBoundary, SkyMointorProvider, SkyMointorContext } from '@skyMointor/react'

@@ -4,9 +4,9 @@ import {
   BrowserEventTypes,
   ErrorTypes,
   EventTypes,
-  MitoLog,
-  MitoLogEmptyMsg,
-  MitoLogEmptyTag,
+  SkyMointorLog,
+  SkyMointorLogEmptyMsg,
+  SkyMointorLogEmptyTag,
   Silent
 } from '@skyMointor/shared'
 import {
@@ -46,7 +46,7 @@ export class BrowserClient extends BaseClient<BrowserOptionsFieldsTypes, EventTy
     return !this.options[silentField]
   }
   log(data: LogTypes) {
-    const { message = MitoLogEmptyMsg, tag = MitoLogEmptyTag, level = Severity.Critical, ex = '' } = data
+    const { message = SkyMointorLogEmptyMsg, tag = SkyMointorLogEmptyTag, level = Severity.Critical, ex = '' } = data
     let errorInfo = {}
     if (isError(ex)) {
       errorInfo = extractErrorStack(ex, level)
@@ -55,7 +55,7 @@ export class BrowserClient extends BaseClient<BrowserOptionsFieldsTypes, EventTy
       type: ErrorTypes.LOG,
       level,
       message: unknownToString(message),
-      name: MitoLog,
+      name: SkyMointorLog,
       customTag: unknownToString(tag),
       time: getTimestamp(),
       url: getLocationHref(),

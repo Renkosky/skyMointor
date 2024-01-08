@@ -1,6 +1,6 @@
 <div align="center">
     <a href="#" target="_blank">
-    <img src="https://i.loli.net/2021/07/28/EvPwd4NjVH3tBfO.jpg" alt="mito-logo" height="90">
+    <img src="https://i.loli.net/2021/07/28/EvPwd4NjVH3tBfO.jpg" alt="skyMointor-logo" height="90">
     </a>
     <p>A Lightweight SDK For Monitor Web</p>
 
@@ -29,17 +29,17 @@
 
 ✔️ 🔨 monitor click、wx:tab、wx:touchmove
 
-✔️ 👌 rich hooks and options [configuration doc](https://skyMointor.github.io/mito-doc/#/sdk/guide/basic-configuration)
+✔️ 👌 rich hooks and options [configuration doc](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/basic-configuration)
 
-✔️ 👌 support web(>= IE8)[@skyMointor/browser](https://skyMointor.github.io/mito-doc/#/sdk/guide/browser)
+✔️ 👌 support web(>= IE8)[@skyMointor/browser](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
 
-✔️ 👌 support framework with Vue3、Vue2.6[@skyMointor/vue](https://skyMointor.github.io/mito-doc/#/sdk/guide/vue)、React@latest[@skyMointor/react](https://skyMointor.github.io/mito-doc/#/sdk/guide/react)
+✔️ 👌 support framework with Vue3、Vue2.6[@skyMointor/vue](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/vue)、React@latest[@skyMointor/react](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/react)
 
-✔️ 👌 support native wxmini、uni-app、remax framework etc [@skyMointor/wx-mini](https://skyMointor.github.io/mito-doc/#/sdk/guide/wx-mini)
+✔️ 👌 support native wxmini、uni-app、remax framework etc [@skyMointor/wx-mini](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/wx-mini)
 
 ## 😎 Get Started
 
-here is [document](https://skyMointor.github.io/mito-doc/#/sdk/guide/introduction).Build your first demo in 2 min or less:
+here is [document](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/introduction).Build your first demo in 2 min or less:
 
 ### browser
 #### 🛠️ Install
@@ -54,7 +54,7 @@ yarn add @skyMointor/browser
 ```typescript
 import { init } from '@skyMointor/browser'
 
-const MitoInstance = init({
+const SkyMointorInstance = init({
   // set debug true to convenient debugger in dev,set false in prod
   debug:true,
   dsn: 'https://test.com/yourInterface',
@@ -62,7 +62,7 @@ const MitoInstance = init({
 })
 ```
 
-more usage info of `@skyMointor/browser` [click here](https://skyMointor.github.io/mito-doc/#/sdk/guide/browser)
+more usage info of `@skyMointor/browser` [click here](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
 
 
 ## 🧐 Demo for SDK
@@ -73,7 +73,7 @@ more usage info of `@skyMointor/browser` [click here](https://skyMointor.github.
 
 [vue3-sdk-demo](https://skyMointor.github.io/vue3-sdk-demo):Use @skyMointor/vue in Vue3.x
 
-<!-- ![mito-在线demo](https://tva1.sinaimg.cn/large/008eGmZEly1gmxgn4y1sag315g0m2hdt.gif)： -->
+<!-- ![skyMointor-在线demo](https://tva1.sinaimg.cn/large/008eGmZEly1gmxgn4y1sag315g0m2hdt.gif)： -->
 
 ## 📞 issue&&contact
 ### issue

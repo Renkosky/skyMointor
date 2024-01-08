@@ -20,7 +20,7 @@ const jsMockData: ReportDataType = {
 }
 const logMockData: ReportDataType = {
   type: ErrorTypes.LOG,
-  message: 'is mito.log'
+  message: 'is skyMointor.log'
 }
 
 describe('browserTransport.ts', () => {

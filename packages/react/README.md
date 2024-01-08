@@ -13,7 +13,7 @@ npm install @skyMointor/react @skyMointor/browser
 yarn add @skyMointor/react @skyMointor/browser
 ```
 
-read the [mito-doc](https://skyMointor.github.io/mito-doc/#/sdk/guide/introduction) to konw more info
+read the [skyMointor-doc](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/introduction) to konw more info
 
 
 ## 🥳 Usage
@@ -25,7 +25,7 @@ read the [mito-doc](https://skyMointor.github.io/mito-doc/#/sdk/guide/introducti
 import React from 'react'
 import { init } from '@skyMointor/browser'
 
-const MitoInstance = init({
+const SkyMointorInstance = init({
   // set debug true to convenient debugger in dev,set false in prod
   debug:true,
   dsn: '/upload',
@@ -46,20 +46,20 @@ If you're using React 16 or above, you can use [ErrorBoundary](https://reactjs.o
 ```tsx
 import React from 'react'
 import App from './App'
-import { MitoProvider } from '@skyMointor/react'
+import { SkyMointorProvider } from '@skyMointor/react'
 import { init } from '@skyMointor/browser'
 
 
-const MitoInstance = init({
+const SkyMointorInstance = init({
   dsn: 'https://test.com/yourServer',
   maxBreadcrumbs: 100,
 })
 
 const APP: React.FC = () => {
   return (
-    <MitoProvider MitoInstance={MitoInstance}>
+    <SkyMointorProvider SkyMointorInstance={SkyMointorInstance}>
         <App />
-    </MitoProvider>
+    </SkyMointorProvider>
   )
 }
 ```
@@ -79,7 +79,7 @@ export default function OtherComponent() {
   const ErrorFallback = <div>Opps,trigger render error</div>
   return (
     <>
-    	// this is used index.tsx's MitoInstance
+    	// this is used index.tsx's SkyMointorInstance
       <ErrorBoundary onError={onError} fallback={ErrorFallback}>
         <ChildComponent></ChildComponent>
       </ErrorBoundary>
@@ -95,30 +95,30 @@ export default function OtherComponent() {
 ```js
 import React from 'react'
 import App from './App'
-import { MitoProvider } from '@skyMointor/react'
+import { SkyMointorProvider } from '@skyMointor/react'
 import { init } from '@skyMointor/browser'
 
 
-const MitoInstance_one = init({
+const SkyMointorInstance_one = init({
   dsn: 'https://test.com/yourServer_one',
   maxBreadcrumbs: 100,
 })
 
-const MitoInstance_two = init({
+const SkyMointorInstance_two = init({
   dsn: 'https://test.com/yourServer_two',
   maxBreadcrumbs: 20,
 })
 
 const APP: React.FC = () => {
   return (
-    <MitoProvider MitoInstance={MitoInstance_one}>
-      // this is used MitoInstance_one
+    <SkyMointorProvider SkyMointorInstance={SkyMointorInstance_one}>
+      // this is used SkyMointorInstance_one
         <App />
-    		<MitoProvider MitoInstance={MitoInstance_two}>
-           // this is used MitoInstance_two
+    		<SkyMointorProvider SkyMointorInstance={SkyMointorInstance_two}>
+           // this is used SkyMointorInstance_two
            <OtherComponent />
-        </MitoProvider>
-    </MitoProvider>
+        </SkyMointorProvider>
+    </SkyMointorProvider>
   )
 }
 ```
@@ -134,20 +134,20 @@ yarn add @skyMointor/react @skyMointor/wx-mini
 ```typescript
 import React from 'react'
 import App from './App'
-import { MitoProvider } from '@skyMointor/react'
+import { SkyMointorProvider } from '@skyMointor/react'
 import { init } from '@skyMointor/wx-mini'
 
 
-const MitoInstance = init({
+const SkyMointorInstance = init({
   dsn: 'https://test.com/yourServer',
   maxBreadcrumbs: 100,
 })
 
 const APP: React.FC = () => {
   return (
-    <MitoProvider MitoInstance={MitoInstance}>
+    <SkyMointorProvider SkyMointorInstance={SkyMointorInstance}>
         <App />
-    </MitoProvider>
+    </SkyMointorProvider>
   )
 }
 ```
@@ -178,16 +178,16 @@ there is `MITO` varible automatically mounted on the window when you use cdn in 
 import React from 'react'
 import App from './App'
 
-const MitoInstance = MITO.init({
+const SkyMointorInstance = MITO.init({
   dsn: 'https://test.com/yourServer',
   maxBreadcrumbs: 100,
 })
 
 const APP: React.FC = () => {
   return (
-    <MITO.MitoProvider MitoInstance={MitoInstance}>
+    <MITO.SkyMointorProvider SkyMointorInstance={SkyMointorInstance}>
         <App />
-    </MITO.MitoProvider>
+    </MITO.SkyMointorProvider>
   )
 }
 ```

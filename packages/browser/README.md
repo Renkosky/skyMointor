@@ -17,7 +17,7 @@ yarn add @skyMointor/browser
 import { init } from '@skyMointor/browser'
 
 // multiple instances
-const MitoInstance = init({
+const SkyMointorInstance = init({
   // set debug true to convenient debugger in dev,set false in prod
   debug:true,
   dsn: 'https://test.com/yourInterface',
@@ -25,5 +25,5 @@ const MitoInstance = init({
 })
 ```
 
-more info of [@skyMointor/browser](https://skyMointor.github.io/mito-doc/#/sdk/guide/browser)
+more info of [@skyMointor/browser](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
 

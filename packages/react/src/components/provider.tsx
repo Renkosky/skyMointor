@@ -1,10 +1,10 @@
 import { BaseClient } from '@skyMointor/core'
 import { FC, createContext } from 'react'
-import { MitoContextValueType } from '../types'
+import { SkyMointorContextValueType } from '../types'
 
-export const MitoContext = createContext<MitoContextValueType>({} as any)
-MitoContext.displayName = 'MitoContext'
+export const SkyMointorContext = createContext<SkyMointorContextValueType>({} as any)
+SkyMointorContext.displayName = 'SkyMointorContext'
 
-export const MitoProvider: FC<MitoContextValueType> = ({ MitoInstance, children }: { MitoInstance: BaseClient; children: any }) => {
-  return <MitoContext.Provider value={{ MitoInstance }}>{children}</MitoContext.Provider>
+export const SkyMointorProvider: FC<SkyMointorContextValueType> = ({ SkyMointorInstance, children }: { SkyMointorInstance: BaseClient; children: any }) => {
+  return <SkyMointorContext.Provider value={{ SkyMointorInstance }}>{children}</SkyMointorContext.Provider>
 }

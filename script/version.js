@@ -27,11 +27,11 @@ function run() {
 async function modify(targetVersion) {
   step(`start modify packages version: ${targetVersion}`)
   for (const target of beModifiedPackages) {
-    await modifyMitoVersion(target, targetVersion)
+    await modifySkyMointorVersion(target, targetVersion)
   }
 }
 
-async function modifyMitoVersion(pkgName, version) {
+async function modifySkyMointorVersion(pkgName, version) {
   const pkgRoot = getPkgRoot(pkgName)
   const pkgPath = path.resolve(pkgRoot, 'package.json')
   const pkg = require(pkgPath)

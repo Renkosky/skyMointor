@@ -27,11 +27,11 @@
 
 
 ### Features
-* add react [ErrorBoundary component](https://skyMointor.github.io/mito-doc/#/sdk/guide/react#add-errorboundary)
+* add react [ErrorBoundary component](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/react#add-errorboundary)
 
-* collect Vue3 prop data when code error [@skyMointor/vue](https://skyMointor.github.io/mito-doc/#/sdk/guide/vue#vue3x)
+* collect Vue3 prop data when code error [@skyMointor/vue](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/vue#vue3x)
 
-* multiple instances,more info  [click here](https://skyMointor.github.io/mito-doc/#/sdk/guide/basic-configuration#multiple-instances)
+* multiple instances,more info  [click here](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/basic-configuration#multiple-instances)
 
 * add wx-mini hooks:
 
@@ -51,15 +51,15 @@
 
 ### Documentation
 
-* **docuemnt:** new [document](https://skyMointor.github.io/mito-doc/#/) for skyMointor
+* **docuemnt:** new [document](https://skyMointor.github.io/skyMointor-doc/#/) for skyMointor
 
 ### BREAKING CHANGES
 
-* **browser:** the singleton change to multiple instances,more info [click here](https://skyMointor.github.io/mito-doc/#/sdk/guide/basic-configuration#multiple-instances)
+* **browser:** the singleton change to multiple instances,more info [click here](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/basic-configuration#multiple-instances)
 
-* **remove MITO.log** and add [MitoInstance.log](https://skyMointor.github.io/mito-doc/#/sdk/guide/basic-configuration#manual-reporting)
+* **remove MITO.log** and add [SkyMointorInstance.log](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/basic-configuration#manual-reporting)
 
-* **remove window.\_\_MITO\_\_** and replace to [MitoInstance](https://skyMointor.github.io/mito-doc/#/sdk/guide/basic-configuration#multiple-instances)
+* **remove window.\_\_MITO\_\_** and replace to [SkyMointorInstance](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/basic-configuration#multiple-instances)
 
 * **ErrorTypes change:**
   JAVASCRIPT_ERROR change to JAVASCRIPT

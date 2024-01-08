@@ -21,4 +21,5 @@ packages/wx-mini
 packages/wx-mini-performance
 .github
 docs
+examples
 test

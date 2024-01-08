@@ -36,7 +36,7 @@ packageDirs.forEach((dir) => {
   paths[`${M}/${dir}`] = [`${packagesDir}/${dir}/src`]
 })
 
-const mitoAnnotation = `/* ${M}/${name} version ' + ${masterVersion} */`
+const skyMointorAnnotation = `/* ${M}/${name} version ' + ${masterVersion} */`
 // for react
 const processEnvBanner = `
   var process = {
@@ -46,7 +46,7 @@ const processEnvBanner = `
   }
 `
 const includeEnvNames = ['react', 'web']
-const banner = `${mitoAnnotation}${includeEnvNames.includes(name) ? '\n' + processEnvBanner : ''}`
+const banner = `${skyMointorAnnotation}${includeEnvNames.includes(name) ? '\n' + processEnvBanner : ''}`
 
 function getCommon(format) {
   const common = {

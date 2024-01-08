@@ -7,9 +7,9 @@ import { variableTypeDetection } from './is'
  *MITO的全局变量
  *
  * @export
- * @interface MitoSupport
+ * @interface SkyMointorSupport
  */
-export interface MitoSupport {
+export interface SkyMointorSupport {
   logger: Logger
   replaceFlag: { [key in EventTypes]?: boolean }
   record?: any[]
@@ -18,7 +18,7 @@ export interface MitoSupport {
 
 interface MITOGlobal {
   console?: Console
-  __MITO__?: MitoSupport
+  __MITO__?: SkyMointorSupport
 }
 
 export const isNodeEnv = variableTypeDetection.isProcess(typeof process !== 'undefined' ? process : 0)
@@ -41,14 +41,14 @@ export function getGlobal<T>() {
 }
 // whether it is right use &
 const _global = getGlobal<Window & WechatMiniprogram.Wx>()
-const _support = getGlobalMitoSupport()
+const _support = getGlobalSkyMointorSupport()
 /**
  * 获取全局变量__MITO__的引用地址
  *
- * @return {*}  {MitoSupport}
+ * @return {*}  {SkyMointorSupport}
  */
-function getGlobalMitoSupport(): MitoSupport {
-  _global.__MITO__ = _global.__MITO__ || ({} as MitoSupport)
+function getGlobalSkyMointorSupport(): SkyMointorSupport {
+  _global.__MITO__ = _global.__MITO__ || ({} as SkyMointorSupport)
   return _global.__MITO__
 }
 

@@ -1,6 +1,6 @@
 <div align="center">
     <a href="#" target="_blank">
-    <img src="https://i.loli.net/2021/07/28/EvPwd4NjVH3tBfO.jpg" alt="mito-logo" height="90">
+    <img src="https://i.loli.net/2021/07/28/EvPwd4NjVH3tBfO.jpg" alt="skyMointor-logo" height="90">
     </a>
     <p>一款监控Web的轻量级SDK</p>
 
@@ -21,16 +21,16 @@
 - ✔️ 🔨 监控路由跳转（hash路由、history路由、wx路由）
 - ✔️ 🔨 监控代码报错、资源加载错误
 - ✔️ 🔨 监控click、wx:tab、touchmove
-- ✔️ 👌 丰富的hooks与配置项支持可高定制化 [基础配置](https://skyMointor.github.io/mito-doc/#/zh-CN/sdk/guide/basic-configuration)
-- ✔️ 👌 支持Web(>= IE8) [@skyMointor/browser](https://skyMointor.github.io/mito-doc/#/zh-CN/sdk/guide/browser)
-- ✔️ 👌 支持框架Vue3、Vue2.6[@skyMointor/vue](https://skyMointor.github.io/mito-doc/#/zh-CN/sdk/guide/vue)、React@latest[@skyMointor/react](https://skyMointor.github.io/mito-doc/#/zh-CN/sdk/guide/react)
-- ✔️ 👌 支持原生微信小程序、支持uni-app等微信小程序框架 [@skyMointor/wx-mini](https://skyMointor.github.io/mito-doc/#/zh-CN/sdk/guide/wx-mini)
+- ✔️ 👌 丰富的hooks与配置项支持可高定制化 [基础配置](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/basic-configuration)
+- ✔️ 👌 支持Web(>= IE8) [@skyMointor/browser](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/browser)
+- ✔️ 👌 支持框架Vue3、Vue2.6[@skyMointor/vue](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/vue)、React@latest[@skyMointor/react](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/react)
+- ✔️ 👌 支持原生微信小程序、支持uni-app等微信小程序框架 [@skyMointor/wx-mini](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/wx-mini)
 
 ## 文档
 
 ## 😎 快速开始
 
-这里是 [详细文档](https://skyMointor.github.io/mito-doc/#/zh-CN/sdk/guide/introduction) 花2分钟或更少时间来构建你的第一个demo:
+这里是 [详细文档](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/introduction) 花2分钟或更少时间来构建你的第一个demo:
 ### browser
 #### 🛠️ 安装
 ```bash
@@ -45,7 +45,7 @@ yarn add @skyMointor/browser
 ```typescript
 import { init } from '@skyMointor/browser'
 
-const MitoInstance = init({
+const SkyMointorInstance = init({
   // 推荐在开发环境设置debug:true,在生产环设置为false
   debug:true,
   dsn: 'https://test.com/yourInterface',
@@ -53,7 +53,7 @@ const MitoInstance = init({
 })
 ```
 
-更多`@skyMointor/browser`信息[点击这里](https://skyMointor.github.io/mito-doc/#/zh-CN/sdk/guide/browser)
+更多`@skyMointor/browser`信息[点击这里](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/browser)
 
 ## 🧐 在线示例
 

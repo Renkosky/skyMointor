@@ -1,8 +1,8 @@
 # @skyMointor/web
 The following three packages are integrated
-* [@mito/browser](https://github.com/skyMointor/skyMointor/tree/master/packages/browser)
-* [@mito/react](https://github.com/skyMointor/skyMointor/tree/master/packages/react)
-* [@mito/vue](https://github.com/skyMointor/skyMointor/tree/master/packages/vue)
+* [@skyMointor/browser](https://github.com/skyMointor/skyMointor/tree/master/packages/browser)
+* [@skyMointor/react](https://github.com/skyMointor/skyMointor/tree/master/packages/react)
+* [@skyMointor/vue](https://github.com/skyMointor/skyMointor/tree/master/packages/vue)
 
 
 ## Install
@@ -13,18 +13,18 @@ npm i @skyMointor/web
 yarn add @skyMointor/web
 ```
 
-read the [mito-doc](https://skyMointor.github.io/mito-doc/#/sdk/guide/introduction) to konw more info
+read the [skyMointor-doc](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/introduction) to konw more info
 
 
 
 ## Usage
 ```js
-import { init,MitoProvider,ErrorBoundary,vuePlugin } from '@skyMointor/web'
+import { init,SkyMointorProvider,ErrorBoundary,vuePlugin } from '@skyMointor/web'
 ```
 **go to **
 
-* [@mito/browser usage manual](https://github.com/skyMointor/skyMointor/tree/master/packages/browser)
-* [@mito/react usage manual](https://github.com/skyMointor/skyMointor/tree/master/packages/react)
-* [@mito/vue usage manual](https://github.com/skyMointor/skyMointor/tree/master/packages/vue)
+* [@skyMointor/browser usage manual](https://github.com/skyMointor/skyMointor/tree/master/packages/browser)
+* [@skyMointor/react usage manual](https://github.com/skyMointor/skyMointor/tree/master/packages/react)
+* [@skyMointor/vue usage manual](https://github.com/skyMointor/skyMointor/tree/master/packages/vue)
 
 

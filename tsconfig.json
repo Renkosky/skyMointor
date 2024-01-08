@@ -40,5 +40,5 @@
       "dom"
     ]
   },
-  "include": ["packages", "mito", "test", "examples"]
+  "include": ["packages", "skyMointor", "test", "examples"]
 }
