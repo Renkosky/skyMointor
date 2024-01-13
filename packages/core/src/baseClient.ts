@@ -1,6 +1,6 @@
-import { EventTypes, SDK_VERSION } from '@skyMointor/shared'
-import { BaseClientType, BaseOptionsFieldsIntegrationType, BasePluginType, LogTypes } from '@skyMointor/types'
-import { logger } from '@skyMointor/utils'
+import { EventTypes, SDK_VERSION } from '@skymointor/shared'
+import { BaseClientType, BaseOptionsFieldsIntegrationType, BasePluginType, LogTypes } from '@skymointor/types'
+import { logger } from '@skymointor/utils'
 import { BaseTransport, Breadcrumb } from '.'
 import { Subscribe } from './subscribe'
 

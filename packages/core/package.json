@@ -1,7 +1,7 @@
 {
-  "name": "@skyMointor/core",
+  "name": "@skymointor/core",
   "version": "3.0.1",
-  "description": "@skyMointor/core",
+  "description": "@skymointor/core",
   "author": "cjinhuo",
   "license": "MIT",
   "main": "dist/core.js",
@@ -24,8 +24,8 @@
     "monitor"
   ],
   "dependencies": {
-    "@skyMointor/types": "3.0.1",
-    "@skyMointor/utils": "3.0.1",
-    "@skyMointor/shared": "3.0.1"
+    "@skymointor/types": "3.0.1",
+    "@skymointor/utils": "3.0.1",
+    "@skymointor/shared": "3.0.1"
   }
 }

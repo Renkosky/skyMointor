@@ -1,6 +1,6 @@
-import { EventTypes } from '@skyMointor/shared'
+import { EventTypes } from '@skymointor/shared'
 import { Logger } from './logger'
-import { DeviceInfo } from '@skyMointor/types'
+import { DeviceInfo } from '@skymointor/types'
 import { variableTypeDetection } from './is'
 
 /**

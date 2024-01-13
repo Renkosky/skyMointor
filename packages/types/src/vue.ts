@@ -1,4 +1,4 @@
-import { IAnyObject } from '@skyMointor/types'
+import { IAnyObject } from '@skymointor/types'
 
 export interface VueInstance {
   // fix in Vue3 typescript's declaration file error

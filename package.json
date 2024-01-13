@@ -99,5 +99,7 @@
       "none": "28 kB"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }

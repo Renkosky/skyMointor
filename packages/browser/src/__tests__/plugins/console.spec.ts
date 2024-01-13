@@ -1,7 +1,7 @@
-import { BrowserClient } from '@skyMointor/browser'
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skyMointor/shared'
-import { ConsoleCollectType } from '@skyMointor/types'
-import { Severity } from '@skyMointor/utils'
+import { BrowserClient } from '@skymointor/browser'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skymointor/shared'
+import { ConsoleCollectType } from '@skymointor/types'
+import { Severity } from '@skymointor/utils'
 import consolePlugin from '../../plugins/console'
 describe('consolePlugin', () => {
   const browserInstance = new BrowserClient({

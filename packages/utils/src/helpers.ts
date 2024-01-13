@@ -1,5 +1,5 @@
-import { IAnyObject } from '@skyMointor/types'
-import { globalVar, ToStringTypes } from '@skyMointor/shared'
+import { IAnyObject } from '@skymointor/types'
+import { globalVar, ToStringTypes } from '@skymointor/shared'
 import { logger } from './logger'
 import { nativeToString, variableTypeDetection } from './is'
 import { isWxMiniEnv, isBrowserEnv } from './global'

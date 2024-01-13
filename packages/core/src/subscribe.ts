@@ -1,4 +1,4 @@
-import { getFunctionName, logger, nativeTryCatch } from '@skyMointor/utils'
+import { getFunctionName, logger, nativeTryCatch } from '@skymointor/utils'
 
 type MonitorCallback = (data: any) => void
 /**

@@ -4,12 +4,12 @@
     </a>
     <p>一款监控Web的轻量级SDK</p>
 
-[![npm version](https://img.shields.io/npm/v/@skyMointor/web.svg?style=flat)](https://www.npmjs.com/package/@skyMointor/web)
+[![npm version](https://img.shields.io/npm/v/@skymointor/web.svg?style=flat)](https://www.npmjs.com/package/@skymointor/web)
 [![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 [![GitHub last commit](https://img.shields.io/github/last-commit/skyMointor/skyMointor.svg?style=flat)](https://github.com/skyMointor/skyMointor/commits/master)
 [![build status](https://img.shields.io/travis/skyMointor/skyMointor/master.svg?style=flat)](https://travis-ci.com/github/skyMointor/skyMointor)
 [![codecov](https://codecov.io/gh/skyMointor/skyMointor/branch/master/graph/badge.svg?token=W7JP5GDOM7)](https://codecov.io/gh/skyMointor/skyMointor)
-[![npm downloads](https://img.shields.io/npm/dm/@skyMointor/core.svg?style=flat)](http://npm-stat.com/charts.html?package=@skyMointor/browser)
+[![npm downloads](https://img.shields.io/npm/dm/@skymointor/core.svg?style=flat)](http://npm-stat.com/charts.html?package=@skymointor/browser)
 [![license](https://img.shields.io/github/license/skyMointor/skyMointor?style=flat)](https://github.com/skyMointor/skyMointor/blob/dev/LICENSE)
 
 </div>
@@ -22,9 +22,9 @@
 - ✔️ 🔨 监控代码报错、资源加载错误
 - ✔️ 🔨 监控click、wx:tab、touchmove
 - ✔️ 👌 丰富的hooks与配置项支持可高定制化 [基础配置](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/basic-configuration)
-- ✔️ 👌 支持Web(>= IE8) [@skyMointor/browser](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/browser)
-- ✔️ 👌 支持框架Vue3、Vue2.6[@skyMointor/vue](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/vue)、React@latest[@skyMointor/react](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/react)
-- ✔️ 👌 支持原生微信小程序、支持uni-app等微信小程序框架 [@skyMointor/wx-mini](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/wx-mini)
+- ✔️ 👌 支持Web(>= IE8) [@skymointor/browser](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/browser)
+- ✔️ 👌 支持框架Vue3、Vue2.6[@skymointor/vue](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/vue)、React@latest[@skymointor/react](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/react)
+- ✔️ 👌 支持原生微信小程序、支持uni-app等微信小程序框架 [@skymointor/wx-mini](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/wx-mini)
 
 ## 文档
 
@@ -35,15 +35,15 @@
 #### 🛠️ 安装
 ```bash
 # 使用 npm
-npm i @skyMointor/browser
+npm i @skymointor/browser
 # 使用 yarn
-yarn add @skyMointor/browser
+yarn add @skymointor/browser
 ```
 
 
 #### 🥳 使用
 ```typescript
-import { init } from '@skyMointor/browser'
+import { init } from '@skymointor/browser'
 
 const SkyMointorInstance = init({
   // 推荐在开发环境设置debug:true,在生产环设置为false
@@ -53,15 +53,15 @@ const SkyMointorInstance = init({
 })
 ```
 
-更多`@skyMointor/browser`信息[点击这里](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/browser)
+更多`@skymointor/browser`信息[点击这里](https://skyMointor.github.io/skyMointor-doc/#/zh-CN/sdk/guide/browser)
 
 ## 🧐 在线示例
 
 **下面的demo展示sdk可以收集到的数据**
 
-[react-sdk-demo](https://skyMointor.github.io/react-sdk-demo):Use @skyMointor/react  in react@next
+[react-sdk-demo](https://skyMointor.github.io/react-sdk-demo):Use @skymointor/react  in react@next
 
-[vue3-sdk-demo](https://skyMointor.github.io/vue3-sdk-demo):Use @skyMointor/vue in Vue3.x
+[vue3-sdk-demo](https://skyMointor.github.io/vue3-sdk-demo):Use @skymointor/vue in Vue3.x
 
 ## 📞 建议和联系
 ### 建议

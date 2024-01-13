@@ -1,4 +1,4 @@
-import { BaseOptionsFieldsIntegrationType } from '@skyMointor/types'
+import { BaseOptionsFieldsIntegrationType } from '@skymointor/types'
 
 export interface BrowserOptionsFieldsTypes extends BrowsersilentOptionsType, BaseOptionsFieldsIntegrationType, BrowserOptionsHooksType {
   /**

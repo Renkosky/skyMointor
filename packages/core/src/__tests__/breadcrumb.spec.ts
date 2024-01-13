@@ -1,7 +1,7 @@
-import { BrowserOptionsFieldsTypes } from '@skyMointor/browser'
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skyMointor/shared'
-import { BreadcrumbPushData } from '@skyMointor/types'
-import { Severity } from '@skyMointor/utils'
+import { BrowserOptionsFieldsTypes } from '@skymointor/browser'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skymointor/shared'
+import { BreadcrumbPushData } from '@skymointor/types'
+import { Severity } from '@skymointor/utils'
 import { Breadcrumb } from '../breadcrumb'
 
 const MaxBreadcrumbs = 16

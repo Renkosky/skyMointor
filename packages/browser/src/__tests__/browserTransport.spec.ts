@@ -1,5 +1,5 @@
-import { Breadcrumb } from '@skyMointor/core'
-import { sleepRun } from '@skyMointor/utils'
+import { Breadcrumb } from '@skymointor/core'
+import { sleepRun } from '@skymointor/utils'
 import { ErrorTypes } from 'packages/shared/src/constant'
 import { ReportDataType } from 'packages/types/src/transport'
 import { BrowserTransport } from '../browserTransport'

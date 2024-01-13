@@ -1,5 +1,5 @@
-import { BREADCRUMBCATEGORYS, WxBreadcrumbTypes, ErrorTypes } from '@skyMointor/shared'
-import { WxParsedErrorType } from '@skyMointor/types'
+import { BREADCRUMBCATEGORYS, WxBreadcrumbTypes, ErrorTypes } from '@skymointor/shared'
+import { WxParsedErrorType } from '@skymointor/types'
 
 /**
  * 解析字符串错误信息，返回message、name、stack

@@ -1,7 +1,7 @@
-import { Severity } from '@skyMointor/utils'
+import { Severity } from '@skymointor/utils'
 import { ReportDataType } from './transport'
 import { TNumStrObj } from './common'
-import { BREADCRUMBCATEGORYS, BreadcrumbTypes } from '@skyMointor/shared'
+import { BREADCRUMBCATEGORYS, BreadcrumbTypes } from '@skymointor/shared'
 import { ConsoleCollectType, RouteChangeCollectType } from './basePluginType'
 
 export interface BreadcrumbPushData {

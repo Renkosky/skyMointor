@@ -1,4 +1,4 @@
-import { HttpTypes } from '@skyMointor/shared'
+import { HttpTypes } from '@skymointor/shared'
 import { BaseTransformType } from './transport'
 
 export interface HttpCollectedType {

@@ -29,7 +29,7 @@
 ### Features
 * add react [ErrorBoundary component](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/react#add-errorboundary)
 
-* collect Vue3 prop data when code error [@skyMointor/vue](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/vue#vue3x)
+* collect Vue3 prop data when code error [@skymointor/vue](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/vue#vue3x)
 
 * multiple instances,more info  [click here](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/basic-configuration#multiple-instances)
 

@@ -1,7 +1,7 @@
 {
-  "name": "@skyMointor/shared",
+  "name": "@skymointor/shared",
   "version": "3.0.1",
-  "description": "@skyMointor/shared",
+  "description": "@skymointor/shared",
   "author": "cjinhuo",
   "license": "MIT",
   "main": "dist/shared.js",

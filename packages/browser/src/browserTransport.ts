@@ -1,8 +1,8 @@
-import { MethodTypes, ToStringTypes } from '@skyMointor/shared'
+import { MethodTypes, ToStringTypes } from '@skymointor/shared'
 import { BrowserOptionsFieldsTypes } from './types'
-import { safeStringify, toStringValidateOption } from '@skyMointor/utils'
-import { ReportDataType } from '@skyMointor/types'
-import { BaseTransport } from '@skyMointor/core'
+import { safeStringify, toStringValidateOption } from '@skymointor/utils'
+import { ReportDataType } from '@skymointor/types'
+import { BaseTransport } from '@skymointor/core'
 
 export class BrowserTransport extends BaseTransport<BrowserOptionsFieldsTypes> {
   configReportXhr: unknown

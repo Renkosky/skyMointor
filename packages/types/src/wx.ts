@@ -1,4 +1,4 @@
-import { TrackActionType } from '@skyMointor/shared'
+import { TrackActionType } from '@skymointor/shared'
 
 export interface DeviceInfo {
   //网络类型: 4g,3g,5g,wifi

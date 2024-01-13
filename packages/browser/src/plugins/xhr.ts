@@ -6,7 +6,7 @@ import {
   globalVar,
   HttpTypes,
   HTTP_CODE
-} from '@skyMointor/shared'
+} from '@skymointor/shared'
 import {
   getTimestamp,
   replaceOld,
@@ -18,8 +18,8 @@ import {
   SpanStatus,
   getLocationHref,
   getRealPath
-} from '@skyMointor/utils'
-import { BasePluginType, HttpCollectedType, HttpTransformedType, MITOXMLHttpRequest, voidFun } from '@skyMointor/types'
+} from '@skymointor/utils'
+import { BasePluginType, HttpCollectedType, HttpTransformedType, MITOXMLHttpRequest, voidFun } from '@skymointor/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const { getArgv, targets: allTargets, binRun, getPkgRoot, step, errLog } = require('./utils')
-const MITO_PREFIX = '@skyMointor'
+const MITO_PREFIX = '@skymointor'
 let beModifiedPackages = []
 
 run()
@@ -41,7 +41,7 @@ async function modifySkyMointorVersion(pkgName, version) {
   }
   const dependencies = pkg.dependencies || {}
   Object.entries(dependencies).forEach(([dependent, dependentVersion]) => {
-    // 拼接：前缀 + 当前包名: @skyMointor/web 如果当前依赖中有被改的包，也把version修改
+    // 拼接：前缀 + 当前包名: @skymointor/web 如果当前依赖中有被改的包，也把version修改
     const isExist = beModifiedPackages.some((pkg) => `${MITO_PREFIX}/${pkg}` === dependent)
     if (isExist) {
       dependencies[dependent] = version

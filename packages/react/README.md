@@ -1,16 +1,16 @@
-# @skyMointor/react
+# @skymointor/react
 
 # ⚠️ attention
 
-**If you want to import in weixin miniprograme,please replace `@skyMointor/browser` to `@miotjs/wx-mini`**
+**If you want to import in weixin miniprograme,please replace `@skymointor/browser` to `@miotjs/wx-mini`**
 
 ## 🛠️ Install
 
 ``` bash
 # using npm
-npm install @skyMointor/react @skyMointor/browser
+npm install @skymointor/react @skymointor/browser
 # using yarn
-yarn add @skyMointor/react @skyMointor/browser
+yarn add @skymointor/react @skymointor/browser
 ```
 
 read the [skyMointor-doc](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/introduction) to konw more info
@@ -23,7 +23,7 @@ read the [skyMointor-doc](https://skyMointor.github.io/skyMointor-doc/#/sdk/guid
 
 ```js
 import React from 'react'
-import { init } from '@skyMointor/browser'
+import { init } from '@skymointor/browser'
 
 const SkyMointorInstance = init({
   // set debug true to convenient debugger in dev,set false in prod
@@ -39,15 +39,15 @@ const SkyMointorInstance = init({
 
 ### Add ErrorBoundary
 
-If you're using React 16 or above, you can use [ErrorBoundary](https://reactjs.org/docs/error-boundaries.html) component to catch render error and automatically send to server.Here are some configurations of ErrorBoundary component that provided by @skyMointor/react.
+If you're using React 16 or above, you can use [ErrorBoundary](https://reactjs.org/docs/error-boundaries.html) component to catch render error and automatically send to server.Here are some configurations of ErrorBoundary component that provided by @skymointor/react.
 
 **index.tsx**
 
 ```tsx
 import React from 'react'
 import App from './App'
-import { SkyMointorProvider } from '@skyMointor/react'
-import { init } from '@skyMointor/browser'
+import { SkyMointorProvider } from '@skymointor/react'
+import { init } from '@skymointor/browser'
 
 
 const SkyMointorInstance = init({
@@ -69,7 +69,7 @@ const APP: React.FC = () => {
 `ErrorBoundary` component  will automatically send react error if you set the correct [dsn](https://github.com/skyMointor/skyMointor/blob/master/docs/option.md).
 
 ```tsx
-import { ErrorBoundary } from '@skyMointor/react'
+import { ErrorBoundary } from '@skymointor/react'
 import ChildComponent from './ChildComponent'
 
 export default function OtherComponent() {
@@ -95,8 +95,8 @@ export default function OtherComponent() {
 ```js
 import React from 'react'
 import App from './App'
-import { SkyMointorProvider } from '@skyMointor/react'
-import { init } from '@skyMointor/browser'
+import { SkyMointorProvider } from '@skymointor/react'
+import { init } from '@skymointor/browser'
 
 
 const SkyMointorInstance_one = init({
@@ -124,18 +124,18 @@ const APP: React.FC = () => {
 ```
 
 ## Use in wx-mini
-If you want to use in Weixin miniprogram,just replace `@skyMointor/browser` to `@skyMointor/wx-mini`.Just like this:
+If you want to use in Weixin miniprogram,just replace `@skymointor/browser` to `@skymointor/wx-mini`.Just like this:
 
 **install**
 ```bash
-yarn add @skyMointor/react @skyMointor/wx-mini
+yarn add @skymointor/react @skymointor/wx-mini
 ```
 
 ```typescript
 import React from 'react'
 import App from './App'
-import { SkyMointorProvider } from '@skyMointor/react'
-import { init } from '@skyMointor/wx-mini'
+import { SkyMointorProvider } from '@skymointor/react'
+import { init } from '@skymointor/wx-mini'
 
 
 const SkyMointorInstance = init({
@@ -154,13 +154,13 @@ const APP: React.FC = () => {
 
 
 ## Using CDN in Browser
-CDN way is **not recommended**.Because `@skyMointor/web` commonjs file is include `jsxRuntime` code,so it's size is larger than else package.
+CDN way is **not recommended**.Because `@skymointor/web` commonjs file is include `jsxRuntime` code,so it's size is larger than else package.
 
 **index.html**
 
 ```html
 <header>
-  <script src="https://cdn.jsdelivr.net/npm/@skyMointor/web/dist/web.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@skymointor/web/dist/web.min.js"></script>
   <script>
     MITO.init({
 		  dsn: 'https://test.com/yourServer',

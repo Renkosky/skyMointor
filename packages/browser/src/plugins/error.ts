@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes, ERROR_TYPE_RE } from '@skyMointor/shared'
-import { extractErrorStack, getLocationHref, getTimestamp, interceptStr, isError, on, Severity, _global } from '@skyMointor/utils'
-import { BasePluginType, ReportDataType } from '@skyMointor/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes, ERROR_TYPE_RE } from '@skymointor/shared'
+import { extractErrorStack, getLocationHref, getTimestamp, interceptStr, isError, on, Severity, _global } from '@skymointor/utils'
+import { BasePluginType, ReportDataType } from '@skymointor/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

@@ -1,4 +1,4 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@skyMointor/shared'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@skymointor/shared'
 import { getTimestamp, getUrlWithEnv } from './helpers'
 import { Severity } from './Severity'
 

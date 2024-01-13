@@ -1,6 +1,6 @@
-import { ToStringTypes } from '@skyMointor/shared'
-import { BaseOptionsFieldsIntegrationType, BaseOptionsType, VueInstance } from '@skyMointor/types'
-import { generateUUID, validateOptionsAndSet } from '@skyMointor/utils'
+import { ToStringTypes } from '@skymointor/shared'
+import { BaseOptionsFieldsIntegrationType, BaseOptionsType, VueInstance } from '@skymointor/types'
+import { generateUUID, validateOptionsAndSet } from '@skymointor/utils'
 
 /**
  * 公用的基础配置项绑定

@@ -1,5 +1,5 @@
-import { BreadcrumbPushData, TransportDataType, VueInstance } from '@skyMointor/types'
-import { Breadcrumb } from '@skyMointor/core'
+import { BreadcrumbPushData, TransportDataType, VueInstance } from '@skymointor/types'
+import { Breadcrumb } from '@skymointor/core'
 type CANCEL = null | undefined | boolean
 
 type TSetRequestHeader = (key: string, value: string) => {}

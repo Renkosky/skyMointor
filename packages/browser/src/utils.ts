@@ -1,5 +1,5 @@
-import { BrowserBreadcrumbTypes } from '@skyMointor/shared'
-import { getBreadcrumbCategoryInBrowser, Severity } from '@skyMointor/utils'
+import { BrowserBreadcrumbTypes } from '@skymointor/shared'
+import { getBreadcrumbCategoryInBrowser, Severity } from '@skymointor/utils'
 import { BrowserClient } from './browserClient'
 
 export function addBreadcrumbInBrowser(

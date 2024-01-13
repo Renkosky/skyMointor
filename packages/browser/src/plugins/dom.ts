@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@skyMointor/shared'
-import { htmlElementAsString, on, throttle, _global } from '@skyMointor/utils'
-import { BasePluginType } from '@skyMointor/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@skymointor/shared'
+import { htmlElementAsString, on, throttle, _global } from '@skymointor/utils'
+import { BasePluginType } from '@skymointor/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

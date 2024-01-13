@@ -1,20 +1,20 @@
-# @skyMointor/browser
+# @skymointor/browser
 
 
 ## Install
 
 ```bash
 # using npm
-npm i @skyMointor/browser
+npm i @skymointor/browser
 # using yarn
-yarn add @skyMointor/browser
+yarn add @skymointor/browser
 ```
 
 ### usage
 
 ```typescript
 // some.js
-import { init } from '@skyMointor/browser'
+import { init } from '@skymointor/browser'
 
 // multiple instances
 const SkyMointorInstance = init({
@@ -25,5 +25,5 @@ const SkyMointorInstance = init({
 })
 ```
 
-more info of [@skyMointor/browser](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
+more info of [@skymointor/browser](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
 

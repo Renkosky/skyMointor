@@ -1,4 +1,4 @@
-import { globalVar, ToStringTypes } from '@skyMointor/shared'
+import { globalVar, ToStringTypes } from '@skymointor/shared'
 import {
   defaultFunctionName,
   generateUUID,

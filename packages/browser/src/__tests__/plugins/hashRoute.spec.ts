@@ -1,6 +1,6 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes } from '@skyMointor/shared'
-import { RouteChangeCollectType } from '@skyMointor/types'
-import { on, _global } from '@skyMointor/utils'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes } from '@skymointor/shared'
+import { RouteChangeCollectType } from '@skymointor/types'
+import { on, _global } from '@skymointor/utils'
 import { BrowserClient } from '../../browserClient'
 import hashRoutePlugin from '../../plugins/hashRoute'
 

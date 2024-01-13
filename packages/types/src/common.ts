@@ -1,4 +1,4 @@
-import { Severity } from '@skyMointor/utils'
+import { Severity } from '@skymointor/utils'
 import { HttpCollectedType } from './http'
 
 export type voidFun = () => void

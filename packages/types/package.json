@@ -1,7 +1,7 @@
 {
-  "name": "@skyMointor/types",
+  "name": "@skymointor/types",
   "version": "3.0.1",
-  "description": "@skyMointor/types",
+  "description": "@skymointor/types",
   "author": "cjinhuo",
   "license": "MIT",
   "main": "dist/types.js",
@@ -24,9 +24,9 @@
     "monitor"
   ],
   "dependencies": {
-    "@skyMointor/core": "3.0.1",
-    "@skyMointor/utils": "3.0.1",
-    "@skyMointor/shared": "3.0.1",
+    "@skymointor/core": "3.0.1",
+    "@skymointor/utils": "3.0.1",
+    "@skymointor/shared": "3.0.1",
     "@types/wechat-miniprogram": "^3.1.0"
   }
 }

@@ -1,4 +1,4 @@
-import { Subscribe } from '@skyMointor/core'
+import { Subscribe } from '@skymointor/core'
 import { BrowserEventTypes } from 'packages/shared/src'
 
 describe('core/subscribe.ts', () => {

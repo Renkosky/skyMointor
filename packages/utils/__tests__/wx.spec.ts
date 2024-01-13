@@ -1,4 +1,4 @@
-import { BREADCRUMBCATEGORYS, ErrorTypes, WxBreadcrumbTypes } from '@skyMointor/shared'
+import { BREADCRUMBCATEGORYS, ErrorTypes, WxBreadcrumbTypes } from '@skymointor/shared'
 import { getBreadcrumbCategoryInWx, parseErrorString } from '../src/wx'
 
 describe('wx.ts', () => {

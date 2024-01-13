@@ -1,5 +1,5 @@
-import { ReportDataType } from '@skyMointor/types'
-import { BrowserEventTypes, ErrorTypes } from '@skyMointor/shared'
+import { ReportDataType } from '@skymointor/types'
+import { BrowserEventTypes, ErrorTypes } from '@skymointor/shared'
 import { variableTypeDetection } from './is'
 const allErrorNumber: unknown = {}
 /**

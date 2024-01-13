@@ -1,4 +1,4 @@
-import { Breadcrumb, BaseClient } from '@skyMointor/core'
+import { Breadcrumb, BaseClient } from '@skymointor/core'
 import {
   BrowserBreadcrumbTypes,
   BrowserEventTypes,
@@ -8,7 +8,7 @@ import {
   SkyMointorLogEmptyMsg,
   SkyMointorLogEmptyTag,
   Silent
-} from '@skyMointor/shared'
+} from '@skymointor/shared'
 import {
   extractErrorStack,
   firstStrtoUppercase,
@@ -18,8 +18,8 @@ import {
   isError,
   Severity,
   unknownToString
-} from '@skyMointor/utils'
-import { LogTypes } from '@skyMointor/types'
+} from '@skymointor/utils'
+import { LogTypes } from '@skymointor/types'
 import { BrowserOptions } from './browserOptions'
 import { BrowserTransport } from './browserTransport'
 import { BrowserOptionsFieldsTypes } from './types'

@@ -1,7 +1,7 @@
-import { BaseClient } from '@skyMointor/core'
-import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@skyMointor/shared'
-import { ReportDataType } from '@skyMointor/types'
-import { extractErrorStack, Severity } from '@skyMointor/utils'
+import { BaseClient } from '@skymointor/core'
+import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@skymointor/shared'
+import { ReportDataType } from '@skymointor/types'
+import { extractErrorStack, Severity } from '@skymointor/utils'
 import { PureComponent, ReactNode, ErrorInfo, ComponentType, FC } from 'react'
 import { SkyMointorContext } from './provider'
 

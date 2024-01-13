@@ -1,6 +1,6 @@
-import { BrowserEventTypes } from '@skyMointor/shared'
-import { getLocationHref, replaceOld, supportsHistory, _global } from '@skyMointor/utils'
-import { BasePluginType, RouteChangeCollectType, voidFun } from '@skyMointor/types'
+import { BrowserEventTypes } from '@skymointor/shared'
+import { getLocationHref, replaceOld, supportsHistory, _global } from '@skymointor/utils'
+import { BasePluginType, RouteChangeCollectType, voidFun } from '@skymointor/types'
 import { BrowserClient } from '../browserClient'
 import { routeTransform, routeTransformedConsumer } from './hashRoute'
 

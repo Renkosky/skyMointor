@@ -1,5 +1,5 @@
-import { ErrorTypes, HttpTypes } from '@skyMointor/shared'
-import { ReportDataType } from '@skyMointor/types'
+import { ErrorTypes, HttpTypes } from '@skymointor/shared'
+import { ReportDataType } from '@skymointor/types'
 import {
   createErrorId,
   getFlutterRealOrigin,

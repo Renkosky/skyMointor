@@ -16,7 +16,7 @@ export default {
     // alias src/(.*) not work
     // 从上到下优先匹配
     '@/test/(.*)': '<rootDir>/test/$1',
-    '@skyMointor/(.*)': '<rootDir>/packages/$1/src/index'
+    '@skymointor/(.*)': '<rootDir>/packages/$1/src/index'
   },
   globals: {
     'ts-jest': {

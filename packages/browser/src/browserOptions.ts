@@ -1,6 +1,6 @@
-import { BaseOptions } from '@skyMointor/core'
-import { ToStringTypes } from '@skyMointor/shared'
-import { validateOptionsAndSet } from '@skyMointor/utils'
+import { BaseOptions } from '@skymointor/core'
+import { ToStringTypes } from '@skymointor/shared'
+import { validateOptionsAndSet } from '@skymointor/utils'
 import { BrowserOptionsFieldsTypes } from './types'
 
 export class BrowserOptions extends BaseOptions<BrowserOptionsFieldsTypes> {

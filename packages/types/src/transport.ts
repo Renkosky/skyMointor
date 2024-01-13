@@ -1,4 +1,4 @@
-import { ErrorTypes } from '@skyMointor/shared'
+import { ErrorTypes } from '@skymointor/shared'
 import { BreadcrumbPushData } from './breadcrumb'
 import { HttpTransformedType } from './http'
 import { DeviceInfo } from './wx'

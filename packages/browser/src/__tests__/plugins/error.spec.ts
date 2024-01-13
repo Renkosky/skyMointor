@@ -1,6 +1,6 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@skyMointor/shared'
-import { ReportDataType } from '@skyMointor/types'
-import { Severity, sleepRun } from '@skyMointor/utils'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@skymointor/shared'
+import { ReportDataType } from '@skymointor/types'
+import { Severity, sleepRun } from '@skymointor/utils'
 import { BrowserClient } from '../../browserClient'
 import errorPlugin from '../../plugins/error'
 

@@ -1,4 +1,14 @@
-const chalk = require('chalk')
+let chalk
+// 如果 require 报错，使用动态 import() 加载
+import('chalk')
+  .then((module) => {
+    chalk = module.default || module
+    // 在此处可以继续使用 chalk 变量
+    // 比如：console.log(chalk.green('Hello, world!'));
+  })
+  .catch((importErr) => {
+    console.error('Failed to dynamically import chalk:', importErr)
+  })
 const consola = require('consola')
 const { getArgv, targets: allTargets, binRun, getPkgRoot, step } = require('./utils')
 

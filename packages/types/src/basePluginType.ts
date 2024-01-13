@@ -1,4 +1,4 @@
-import { EventTypes } from '@skyMointor/shared'
+import { EventTypes } from '@skymointor/shared'
 import { BaseClientType } from './baseClientType'
 
 export interface BasePluginType<T extends EventTypes = EventTypes, C extends BaseClientType = BaseClientType> {

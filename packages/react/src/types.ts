@@ -1,4 +1,4 @@
-import { BaseClient } from '@skyMointor/core'
+import { BaseClient } from '@skymointor/core'
 
 export interface SkyMointorContextValueType {
   SkyMointorInstance: BaseClient

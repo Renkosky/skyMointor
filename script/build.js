@@ -1,5 +1,16 @@
 const path = require('path')
-const chalk = require('chalk')
+let chalk
+// 如果 require 报错，使用动态 import() 加载
+import('chalk')
+  .then((module) => {
+    chalk = module.default || module
+    // 在此处可以继续使用 chalk 变量
+    // 比如：console.log(chalk.green('Hello, world!'));
+  })
+  .catch((importErr) => {
+    console.error('Failed to dynamically import chalk:', importErr)
+  })
+
 const fs = require('fs-extra')
 const consola = require('consola')
 const { targets: allTargets, fuzzyMatchTarget, getArgv, binRun } = require('./utils')
@@ -54,6 +65,7 @@ async function rollupBuild(target) {
   if (pkg.private) {
     return
   }
+  if (target === 'vue' || target === 'wx-mini' || target === 'wx-mini-performance') return
   // const env = [pkg.buildOption && pkg.buildOption.env]
   const args = [
     '-c',

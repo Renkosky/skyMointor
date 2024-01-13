@@ -9,7 +9,7 @@ import hashRoutePlugin from './plugins/hashRoute'
 import historyRoutePlugin from './plugins/historyRoute'
 import consolePlugin from './plugins/console'
 import unhandlerejectionPlugin from './plugins/unhandlerejecttion'
-import { BasePluginType } from '@skyMointor/types'
+import { BasePluginType } from '@skymointor/types'
 function createBrowserInstance(options: BrowserOptionsFieldsTypes = {}, plugins: BasePluginType[] = []) {
   const browserClient = new BrowserClient(options)
   const browserPlugins = [

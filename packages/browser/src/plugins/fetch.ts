@@ -1,6 +1,6 @@
-import { BrowserEventTypes, HttpTypes } from '@skyMointor/shared'
-import { getTimestamp, replaceOld, _global } from '@skyMointor/utils'
-import { BasePluginType, HttpCollectedType, HttpTransformedType, voidFun } from '@skyMointor/types'
+import { BrowserEventTypes, HttpTypes } from '@skymointor/shared'
+import { getTimestamp, replaceOld, _global } from '@skymointor/utils'
+import { BasePluginType, HttpCollectedType, HttpTransformedType, voidFun } from '@skymointor/types'
 import { BrowserClient } from '../browserClient'
 import { httpTransform, httpTransformedDataConsumer } from './xhr'
 

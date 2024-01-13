@@ -1,5 +1,5 @@
 {
-  "name": "@skyMointor/browser",
+  "name": "@skymointor/browser",
   "version": "3.0.1",
   "description": "A SDK For Monitoring Browser Errors",
   "author": "cjinhuo",
@@ -25,10 +25,10 @@
     "monitor"
   ],
   "dependencies": {
-    "@skyMointor/utils": "3.0.1",
-    "@skyMointor/core": "3.0.1",
-    "@skyMointor/shared": "3.0.1",
-    "@skyMointor/types": "3.0.1"
+    "@skymointor/utils": "3.0.1",
+    "@skymointor/core": "3.0.1",
+    "@skymointor/shared": "3.0.1",
+    "@skymointor/types": "3.0.1"
   },
   "buildOptions": {
     "formats": [

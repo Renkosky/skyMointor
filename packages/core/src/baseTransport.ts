@@ -1,6 +1,6 @@
-import { logger, Queue, isInclude, createErrorId, isEmpty, validateOptionsAndSet } from '@skyMointor/utils'
-import { SDK_NAME, SDK_VERSION, ToStringTypes } from '@skyMointor/shared'
-import { AuthInfo, BaseOptionsFieldsIntegrationType, BreadcrumbPushData, ReportDataType, TransportDataType } from '@skyMointor/types'
+import { logger, Queue, isInclude, createErrorId, isEmpty, validateOptionsAndSet } from '@skymointor/utils'
+import { SDK_NAME, SDK_VERSION, ToStringTypes } from '@skymointor/shared'
+import { AuthInfo, BaseOptionsFieldsIntegrationType, BreadcrumbPushData, ReportDataType, TransportDataType } from '@skymointor/types'
 
 /**
  * 传输数据抽象类

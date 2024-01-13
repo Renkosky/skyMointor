@@ -4,12 +4,12 @@
     </a>
     <p>A Lightweight SDK For Monitor Web</p>
 
-[![npm version](https://img.shields.io/npm/v/@skyMointor/web.svg?style=flat)](https://www.npmjs.com/package/@skyMointor/web)
+[![npm version](https://img.shields.io/npm/v/@skymointor/web.svg?style=flat)](https://www.npmjs.com/package/@skymointor/web)
 [![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 [![GitHub last commit](https://img.shields.io/github/last-commit/skyMointor/skyMointor.svg?style=flat)](https://github.com/skyMointor/skyMointor/commits/master)
 [![build status](https://img.shields.io/travis/skyMointor/skyMointor/master.svg?style=flat)](https://travis-ci.com/github/skyMointor/skyMointor)
 [![codecov](https://codecov.io/gh/skyMointor/skyMointor/branch/master/graph/badge.svg?token=W7JP5GDOM7)](https://codecov.io/gh/skyMointor/skyMointor)
-[![npm downloads](https://img.shields.io/npm/dm/@skyMointor/core.svg?style=flat)](http://npm-stat.com/charts.html?package=@skyMointor/browser)
+[![npm downloads](https://img.shields.io/npm/dm/@skymointor/core.svg?style=flat)](http://npm-stat.com/charts.html?package=@skymointor/browser)
 [![license](https://img.shields.io/github/license/skyMointor/skyMointor?style=flat)](https://github.com/skyMointor/skyMointor/blob/dev/LICENSE)
 
 </div>
@@ -31,11 +31,11 @@
 
 ✔️ 👌 rich hooks and options [configuration doc](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/basic-configuration)
 
-✔️ 👌 support web(>= IE8)[@skyMointor/browser](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
+✔️ 👌 support web(>= IE8)[@skymointor/browser](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
 
-✔️ 👌 support framework with Vue3、Vue2.6[@skyMointor/vue](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/vue)、React@latest[@skyMointor/react](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/react)
+✔️ 👌 support framework with Vue3、Vue2.6[@skymointor/vue](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/vue)、React@latest[@skymointor/react](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/react)
 
-✔️ 👌 support native wxmini、uni-app、remax framework etc [@skyMointor/wx-mini](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/wx-mini)
+✔️ 👌 support native wxmini、uni-app、remax framework etc [@skymointor/wx-mini](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/wx-mini)
 
 ## 😎 Get Started
 
@@ -45,14 +45,14 @@ here is [document](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/intro
 #### 🛠️ Install
 ```bash
 # using npm
-npm i @skyMointor/browser
+npm i @skymointor/browser
 # using yarn
-yarn add @skyMointor/browser
+yarn add @skymointor/browser
 ```
 
 #### 🥳 Usage
 ```typescript
-import { init } from '@skyMointor/browser'
+import { init } from '@skymointor/browser'
 
 const SkyMointorInstance = init({
   // set debug true to convenient debugger in dev,set false in prod
@@ -62,16 +62,16 @@ const SkyMointorInstance = init({
 })
 ```
 
-more usage info of `@skyMointor/browser` [click here](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
+more usage info of `@skymointor/browser` [click here](https://skyMointor.github.io/skyMointor-doc/#/sdk/guide/browser)
 
 
 ## 🧐 Demo for SDK
 
 **here are some demo for sdk of collecting data**
 
-[react-sdk-demo](https://skyMointor.github.io/react-sdk-demo):Use @skyMointor/react  in react@next
+[react-sdk-demo](https://skyMointor.github.io/react-sdk-demo):Use @skymointor/react  in react@next
 
-[vue3-sdk-demo](https://skyMointor.github.io/vue3-sdk-demo):Use @skyMointor/vue in Vue3.x
+[vue3-sdk-demo](https://skyMointor.github.io/vue3-sdk-demo):Use @skymointor/vue in Vue3.x
 
 <!-- ![skyMointor-在线demo](https://tva1.sinaimg.cn/large/008eGmZEly1gmxgn4y1sag315g0m2hdt.gif)： -->
 

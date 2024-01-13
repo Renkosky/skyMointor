@@ -1,6 +1,6 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skyMointor/shared'
-import { RouteChangeCollectType } from '@skyMointor/types'
-import { sleepRun, _global } from '@skyMointor/utils'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skymointor/shared'
+import { RouteChangeCollectType } from '@skymointor/types'
+import { sleepRun, _global } from '@skymointor/utils'
 import { BrowserClient } from '../../browserClient'
 import historyRoutePlugin from '../../plugins/historyRoute'
 

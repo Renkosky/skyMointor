@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes, globalVar } from '@skyMointor/shared'
-import { replaceOld, Severity, _global } from '@skyMointor/utils'
-import { BasePluginType, ConsoleCollectType } from '@skyMointor/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes, globalVar } from '@skymointor/shared'
+import { replaceOld, Severity, _global } from '@skymointor/utils'
+import { BasePluginType, ConsoleCollectType } from '@skymointor/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 const consolePlugin: BasePluginType<BrowserEventTypes, BrowserClient> = {

@@ -27,7 +27,7 @@ const name = path.basename(packageDir)
 // const pathResolve = (p) => path.resolve(packageDir, p)
 
 // major name
-const M = '@skyMointor'
+const M = '@skymointor'
 const packageDirs = fs.readdirSync(packagesDir)
 const paths = {}
 packageDirs.forEach((dir) => {

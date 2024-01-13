@@ -1,6 +1,6 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes, HttpTypes, MethodTypes } from '@skyMointor/shared'
-import { HttpCollectedType } from '@skyMointor/types'
-import { getBreadcrumbCategoryInBrowser, Severity } from '@skyMointor/utils'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes, HttpTypes, MethodTypes } from '@skymointor/shared'
+import { HttpCollectedType } from '@skymointor/types'
+import { getBreadcrumbCategoryInBrowser, Severity } from '@skymointor/utils'
 import { BrowserClient } from '../../browserClient'
 import xhrPlugin, { httpTransform, httpTransformedDataConsumer } from '../../plugins/xhr'
 

@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@skyMointor/shared'
-import { isExistProperty, on, parseUrlToObj, _global } from '@skyMointor/utils'
-import { BasePluginType, RouteChangeCollectType } from '@skyMointor/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@skymointor/shared'
+import { isExistProperty, on, parseUrlToObj, _global } from '@skymointor/utils'
+import { BasePluginType, RouteChangeCollectType } from '@skymointor/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

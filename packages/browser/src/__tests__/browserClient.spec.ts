@@ -1,5 +1,5 @@
-import { BrowserBreadcrumbTypes } from '@skyMointor/shared'
-import { getBreadcrumbCategoryInBrowser, Severity, sleepRun } from '@skyMointor/utils'
+import { BrowserBreadcrumbTypes } from '@skymointor/shared'
+import { getBreadcrumbCategoryInBrowser, Severity, sleepRun } from '@skymointor/utils'
 import { BrowserClient } from '../browserClient'
 import { dsnConfig } from './config'
 

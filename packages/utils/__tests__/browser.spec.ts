@@ -1,4 +1,4 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skyMointor/shared'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@skymointor/shared'
 import { extractErrorStack, getBreadcrumbCategoryInBrowser, htmlElementAsString, parseUrlToObj, Severity } from '../src'
 
 describe('browser.ts', () => {

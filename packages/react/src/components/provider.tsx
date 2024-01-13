@@ -1,4 +1,4 @@
-import { BaseClient } from '@skyMointor/core'
+import { BaseClient } from '@skymointor/core'
 import { FC, createContext } from 'react'
 import { SkyMointorContextValueType } from '../types'
 

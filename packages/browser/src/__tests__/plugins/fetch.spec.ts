@@ -1,5 +1,5 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes } from '@skyMointor/shared'
-import { getBreadcrumbCategoryInBrowser } from '@skyMointor/utils'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes } from '@skymointor/shared'
+import { getBreadcrumbCategoryInBrowser } from '@skymointor/utils'
 import { BrowserClient } from '../../browserClient'
 import fetchPlugin from '../../plugins/fetch'
 import fetch from 'node-fetch'

@@ -1,4 +1,4 @@
-import { ToStringTypes } from '@skyMointor/shared'
+import { ToStringTypes } from '@skymointor/shared'
 
 export const nativeToString = Object.prototype.toString
 export function isType(type: string) {
