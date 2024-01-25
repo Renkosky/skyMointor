@@ -2,13 +2,14 @@ import { BaseClient } from '@skymointor/core'
 import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@skymointor/shared'
 import { ReportDataType } from '@skymointor/types'
 import { extractErrorStack, Severity } from '@skymointor/utils'
-import { PureComponent, ReactNode, ErrorInfo, ComponentType, FC } from 'react'
+import { PureComponent, ReactNode, ErrorInfo, ComponentType, FC, ReactElement } from 'react'
 import { SkyMointorContext } from './provider'
 
 interface ErrorBoundaryProps {
-  fallback?: ReactNode
+  fallback?: ReactNode | ReactElement<any, any>
   onError?: (error: Error, componentStack: string) => void
   SkyMointorInstance?: BaseClient
+  children?: any
 }
 
 interface ErrorBoundaryState {
@@ -46,7 +47,7 @@ class ErrorBoundaryWrapped extends PureComponent<ErrorBoundaryProps, ErrorBounda
   }
 }
 
-export const ErrorBoundary: FC<ErrorBoundaryProps & { children: ReactNode }> = (props: ErrorBoundaryProps & { children: ReactNode }) => (
+export const ErrorBoundary: FC<ErrorBoundaryProps & { children: ReactNode | ReactElement<any, any> }> = (props: ErrorBoundaryProps & { children: ReactNode | ReactElement<any, any> }) => (
   <SkyMointorContext.Consumer>
     {({ SkyMointorInstance }) => (
       <ErrorBoundaryWrapped {...props} SkyMointorInstance={props.SkyMointorInstance || SkyMointorInstance}>

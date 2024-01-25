@@ -1,6 +1,6 @@
 {
   "name": "@skymointor/web",
-  "version": "3.0.1",
+  "version": "0.0.1",
   "description": "A SDK For Monitoring Web(React、Vue) Errors",
   "author": "cjinhuo(https://github.com/cjinhuo)",
   "license": "MIT",
@@ -25,8 +25,8 @@
     "monitor"
   ],
   "dependencies": {
-    "@skymointor/browser": "3.0.1",
-    "@skymointor/react": "3.0.1",
-    "@skymointor/vue": "3.0.1"
+    "@skymointor/browser": "0.0.1",
+    "@skymointor/react": "0.0.1",
+    "@skymointor/vue": "0.0.1"
   }
 }

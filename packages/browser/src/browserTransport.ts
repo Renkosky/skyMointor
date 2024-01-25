@@ -36,6 +36,7 @@ export class BrowserTransport extends BaseTransport<BrowserOptionsFieldsTypes> {
   }
   //重写basereport的发送请求方法
   sendToServer(data: any, url: string) {
+    console.log('sendToServer', data, url)
     return this.useImgUpload ? this.imgRequest(data, url) : this.post(data, url)
   }
   getTransportData(data: ReportDataType) {

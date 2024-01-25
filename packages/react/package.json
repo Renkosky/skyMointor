@@ -1,6 +1,6 @@
 {
   "name": "@skymointor/react",
-  "version": "3.0.1",
+  "version": "0.0.1",
   "description": "A SDK For Report React ErrorBoundary",
   "author": "cjinhuo",
   "license": "MIT",
@@ -28,8 +28,8 @@
     "react": ">=16.8.0"
   },
   "dependencies": {
-    "@skymointor/core": "3.0.1",
-    "@skymointor/utils": "3.0.1",
-    "@skymointor/shared": "3.0.1"
+    "@skymointor/core": "0.0.1",
+    "@skymointor/utils": "0.0.1",
+    "@skymointor/shared": "0.0.1"
   }
 }
