@@ -47,7 +47,9 @@ class ErrorBoundaryWrapped extends PureComponent<ErrorBoundaryProps, ErrorBounda
   }
 }
 
-export const ErrorBoundary: FC<ErrorBoundaryProps & { children: ReactNode | ReactElement<any, any> }> = (props: ErrorBoundaryProps & { children: ReactNode | ReactElement<any, any> }) => (
+export const ErrorBoundary: FC<ErrorBoundaryProps & { children: ReactNode | ReactElement<any, any> }> = (
+  props: ErrorBoundaryProps & { children: ReactNode | ReactElement<any, any> }
+) => (
   <SkyMointorContext.Consumer>
     {({ SkyMointorInstance }) => (
       <ErrorBoundaryWrapped {...props} SkyMointorInstance={props.SkyMointorInstance || SkyMointorInstance}>
